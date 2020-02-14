@@ -14,7 +14,7 @@ namespace TeamNameHere
         [SerializeField] private float maxVelocityChange = 10.0f;
         [SerializeField] private float jumpHeight = 2.0f;
 
-        [SerializeField] private Camera camera;
+        [SerializeField] private Camera cam;
 
         private bool mayJump = true;
         private bool isGrounded;
@@ -39,7 +39,7 @@ namespace TeamNameHere
 
         private void FixedUpdate()
         {
-            Vector3 lookAt = camera.transform.forward;
+            Vector3 lookAt = cam.transform.forward;
             lookAt.y = 0;
 
             playerRigidBody.rotation = Quaternion.LookRotation(lookAt, Vector3.up);
@@ -80,9 +80,15 @@ namespace TeamNameHere
 
         private void OnDrawGizmos()
         {
-            Debug.DrawLine(camera.transform.position, camera.transform.position + camera.transform.forward,
+            Transform transform1 = cam.transform;
+            GameObject o = gameObject;
+            Vector3 position1 = o.transform.position;
+            Vector3 position = transform1.position;
+
+            Debug.DrawLine(position, position + transform1.forward,
                 Color.magenta);
-            Debug.DrawLine(gameObject.transform.position, gameObject.transform.position + gameObject.transform.forward,
+            
+            Debug.DrawLine(position1, position1 + o.transform.forward,
                 Color.red);
         }
     }

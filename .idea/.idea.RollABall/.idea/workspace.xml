@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1bc376-af38-4b85-9e93-cd6b17944db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,20 +15,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="574">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
               <folding>
-                <marker date="1581687681931" expanded="true" signature="6:32" ph="..." />
-                <marker date="1581687681931" expanded="true" signature="56:2965" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="195:2963" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="692:869" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="962:1234" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="1270:2400" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="1475:2266" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="2110:2252" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="2440:2491" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="2535:2612" ph="{...}" />
-                <marker date="1581687681931" expanded="true" signature="2649:2957" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="6:32" ph="..." />
+                <marker date="1581687868290" expanded="true" signature="56:3079" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="195:3077" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="689:866" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="959:1231" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="1267:2394" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="1469:2260" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="2104:2246" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="2434:2485" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="2529:2606" ph="{...}" />
+                <marker date="1581687868290" expanded="true" signature="2643:3071" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -61,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -129,12 +125,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581685027460</updated>
-      <workItem from="1581685033183" duration="2407000" />
+      <workItem from="1581685033183" duration="2593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2407000" />
+    <option name="totallyTimeSpent" value="2593000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,20 +190,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="574">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
           <folding>
-            <marker date="1581687681931" expanded="true" signature="6:32" ph="..." />
-            <marker date="1581687681931" expanded="true" signature="56:2965" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="195:2963" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="692:869" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="962:1234" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="1270:2400" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="1475:2266" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="2110:2252" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="2440:2491" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="2535:2612" ph="{...}" />
-            <marker date="1581687681931" expanded="true" signature="2649:2957" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="6:32" ph="..." />
+            <marker date="1581687868290" expanded="true" signature="56:3079" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="195:3077" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="689:866" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="959:1231" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="1267:2394" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="1469:2260" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="2104:2246" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="2434:2485" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="2529:2606" ph="{...}" />
+            <marker date="1581687868290" expanded="true" signature="2643:3071" ph="{...}" />
           </folding>
         </state>
       </provider>
