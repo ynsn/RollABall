@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace TeamNameHere
 {
@@ -12,6 +13,8 @@ namespace TeamNameHere
         [SerializeField] private float gravity = 10.0f;
         [SerializeField] private float maxVelocityChange = 10.0f;
         [SerializeField] private float jumpHeight = 2.0f;
+
+        [SerializeField] private Camera camera;
 
         private bool mayJump = true;
         private bool isGrounded;
@@ -36,6 +39,11 @@ namespace TeamNameHere
 
         private void FixedUpdate()
         {
+            Vector3 lookAt = camera.transform.forward;
+            lookAt.y = 0;
+
+            playerRigidBody.rotation = Quaternion.LookRotation(lookAt, Vector3.up);
+
             if (isGrounded)
             {
                 Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
@@ -68,6 +76,14 @@ namespace TeamNameHere
         private float CalculateJumpSpeed()
         {
             return Mathf.Sqrt(2 * jumpHeight * gravity);
+        }
+
+        private void OnDrawGizmos()
+        {
+            Debug.DrawLine(camera.transform.position, camera.transform.position + camera.transform.forward,
+                Color.magenta);
+            Debug.DrawLine(gameObject.transform.position, gameObject.transform.position + gameObject.transform.forward,
+                Color.red);
         }
     }
 }
