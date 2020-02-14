@@ -28,7 +28,7 @@ namespace TeamNameHere
             playerRigidBody.useGravity = false;
         }
 
-        private Vector3 CalculateVelocityChange(Vector3 velocityChange, float maxVelChange)
+        private static Vector3 CalculateVelocityChange(Vector3 velocityChange, float maxVelChange)
         {
             velocityChange.x = Mathf.Clamp(velocityChange.x, -maxVelChange, maxVelChange);
             velocityChange.z = Mathf.Clamp(velocityChange.z, -maxVelChange, maxVelChange);
@@ -44,24 +44,23 @@ namespace TeamNameHere
 
             playerRigidBody.rotation = Quaternion.LookRotation(lookAt, Vector3.up);
 
-            //if (isGrounded)
+
+            Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            targetVelocity = transform.TransformDirection(targetVelocity);
+            targetVelocity *= speed;
+
+            Vector3 velocity = playerRigidBody.velocity;
+            Vector3 velocityChange = (targetVelocity - velocity);
+
+            velocityChange = CalculateVelocityChange(velocityChange, maxVelocityChange);
+
+            playerRigidBody.AddForce(velocityChange, ForceMode.VelocityChange);
+
+            if (isGrounded && isJumpingAllowed && mayJump && Input.GetButton("Jump"))
             {
-                Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-                targetVelocity = transform.TransformDirection(targetVelocity);
-                targetVelocity *= speed;
-
-                Vector3 velocity = playerRigidBody.velocity;
-                Vector3 velocityChange = (targetVelocity - velocity);
-
-                velocityChange = CalculateVelocityChange(velocityChange, maxVelocityChange);
-
-                playerRigidBody.AddForce(velocityChange, ForceMode.VelocityChange);
-
-                if (isGrounded && isJumpingAllowed && mayJump && Input.GetButton("Jump"))
-                {
-                    playerRigidBody.velocity = new Vector3(velocity.x, CalculateJumpSpeed(), velocity.z);
-                }
+                playerRigidBody.velocity = new Vector3(velocity.x, CalculateJumpSpeed(), velocity.z);
             }
+
 
             playerRigidBody.AddForce(new Vector3(0, -gravity * playerRigidBody.mass, 0));
 
