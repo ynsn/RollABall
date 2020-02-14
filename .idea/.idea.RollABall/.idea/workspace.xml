@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe1bc376-af38-4b85-9e93-cd6b17944db1" name="Default Changelist" comment="" />
+    <list default="true" id="fe1bc376-af38-4b85-9e93-cd6b17944db1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollABall/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RollABall/Materials/BouncePad.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Materials/BouncePad.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RollABall/PhysicsMaterials/BounceMaterial.physicMaterial" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/PhysicsMaterials/BounceMaterial.physicMaterial" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RollABall/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Scenes/MainLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="637">
+              <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
               <folding>
                 <marker date="1581689469766" expanded="true" signature="6:32" ph="..." />
                 <marker date="1581689469766" expanded="true" signature="56:2990" ph="{...}" />
@@ -31,7 +41,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+              <folding>
+                <marker date="1581691209438" expanded="false" signature="6:78" ph="..." />
+                <marker date="1581691209438" expanded="true" signature="165:718" ph="{...}" />
+                <marker date="1581691209438" expanded="true" signature="479:715" ph="{...}" />
+                <marker date="1581691209438" expanded="true" signature="550:708" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <folding>
+                <marker date="1581691593693" expanded="false" signature="6:104" ph="..." />
+                <marker date="1581691593693" expanded="true" signature="157:412" ph="{...}" />
+                <marker date="1581691593693" expanded="true" signature="265:333" ph="{...}" />
+                <marker date="1581691593693" expanded="true" signature="369:410" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
@@ -55,13 +95,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" />
         <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" />
+        <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" />
       </list>
     </option>
   </component>
@@ -141,12 +185,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581685027460</updated>
-      <workItem from="1581685033183" duration="4333000" />
+      <workItem from="1581685033183" duration="6204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4333000" />
+    <option name="totallyTimeSpent" value="6204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -204,10 +248,25 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <marker date="1581689084529" expanded="true" signature="6:92" ph="..." />
+            <marker date="1581689084529" expanded="true" signature="116:710" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="161:708" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="324:449" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="505:575" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="630:702" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="637">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
           <folding>
             <marker date="1581689469766" expanded="true" signature="6:32" ph="..." />
             <marker date="1581689469766" expanded="true" signature="56:2990" ph="{...}" />
@@ -223,17 +282,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="189">
+          <caret line="11" column="94" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
           <folding>
-            <marker date="1581689084529" expanded="true" signature="6:92" ph="..." />
-            <marker date="1581689084529" expanded="true" signature="116:710" ph="{...}" />
-            <marker date="1581689084529" expanded="true" signature="161:708" ph="{...}" />
-            <marker date="1581689084529" expanded="true" signature="324:449" ph="{...}" />
-            <marker date="1581689084529" expanded="true" signature="505:575" ph="{...}" />
-            <marker date="1581689084529" expanded="true" signature="630:702" ph="{...}" />
+            <marker date="1581691209438" expanded="false" signature="6:78" ph="..." />
+            <marker date="1581691209438" expanded="true" signature="165:718" ph="{...}" />
+            <marker date="1581691209438" expanded="true" signature="479:715" ph="{...}" />
+            <marker date="1581691209438" expanded="true" signature="550:708" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <marker date="1581691593693" expanded="false" signature="6:104" ph="..." />
+            <marker date="1581691593693" expanded="true" signature="157:412" ph="{...}" />
+            <marker date="1581691593693" expanded="true" signature="265:333" ph="{...}" />
+            <marker date="1581691593693" expanded="true" signature="369:410" ph="{...}" />
           </folding>
         </state>
       </provider>

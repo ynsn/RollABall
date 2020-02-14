@@ -10,6 +10,7 @@ public class PressurePlateBehaviour : MonoBehaviour
     private void OnCollisionEnter()
     {
         IsTriggered = true;
+        Activated.Invoke();
     }
 
     private void OnCollisionExit()

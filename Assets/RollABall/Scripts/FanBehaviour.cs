@@ -8,9 +8,8 @@ public class FanBehaviour : MonoBehaviour //is in a scene, think of it like an o
 
     private void OnTriggerStay(Collider other) //void - what method gives back; () To decet when it is in there; like a collider but doesnt stop movement
     {
-        if (other.GetComponent<Rigidbody>() != null) { //checking Object for rigid body to not throw error
-            other.GetComponent<Rigidbody>().AddForce(transform.forward);
-
+        if (other.gameObject.GetComponent<Rigidbody>() != null) { //checking Object for rigid body to not throw error
+            other.gameObject.GetComponent<Rigidbody>().AddForce(transform.forward * fanSpeed);
         } 
     }
 
