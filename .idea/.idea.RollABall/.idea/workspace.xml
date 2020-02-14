@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1bc376-af38-4b85-9e93-cd6b17944db1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/RollABall/Scenes/MainLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Scenes/MainLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +16,36 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="574">
-              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+            <state relative-caret-position="406">
+              <caret line="61" column="105" selection-start-line="61" selection-start-column="105" selection-end-line="61" selection-end-column="105" />
               <folding>
-                <marker date="1581687868290" expanded="true" signature="6:32" ph="..." />
-                <marker date="1581687868290" expanded="true" signature="56:3079" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="195:3077" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="689:866" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="959:1231" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="1267:2394" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="1469:2260" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="2104:2246" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="2434:2485" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="2529:2606" ph="{...}" />
-                <marker date="1581687868290" expanded="true" signature="2643:3071" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="6:32" ph="..." />
+                <marker date="1581689220727" expanded="true" signature="56:3083" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="195:3081" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="689:866" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="959:1231" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="1267:2410" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="2120:2262" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="2450:2501" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="2545:2622" ph="{...}" />
+                <marker date="1581689220727" expanded="true" signature="2659:3075" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding>
+                <marker date="1581689084529" expanded="true" signature="6:92" ph="..." />
+                <marker date="1581689084529" expanded="true" signature="116:710" ph="{...}" />
+                <marker date="1581689084529" expanded="true" signature="161:708" ph="{...}" />
+                <marker date="1581689084529" expanded="true" signature="324:449" ph="{...}" />
+                <marker date="1581689084529" expanded="true" signature="505:575" ph="{...}" />
+                <marker date="1581689084529" expanded="true" signature="630:702" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -41,10 +58,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" />
         <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs" />
       </list>
     </option>
@@ -57,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -125,12 +144,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581685027460</updated>
-      <workItem from="1581685033183" duration="2593000" />
+      <workItem from="1581685033183" duration="3852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2593000" />
+    <option name="totallyTimeSpent" value="3852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -188,22 +207,36 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <marker date="1581689084529" expanded="true" signature="6:92" ph="..." />
+            <marker date="1581689084529" expanded="true" signature="116:710" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="161:708" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="324:449" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="505:575" ph="{...}" />
+            <marker date="1581689084529" expanded="true" signature="630:702" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BallController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        <state relative-caret-position="406">
+          <caret line="61" column="105" selection-start-line="61" selection-start-column="105" selection-end-line="61" selection-end-column="105" />
           <folding>
-            <marker date="1581687868290" expanded="true" signature="6:32" ph="..." />
-            <marker date="1581687868290" expanded="true" signature="56:3079" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="195:3077" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="689:866" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="959:1231" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="1267:2394" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="1469:2260" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="2104:2246" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="2434:2485" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="2529:2606" ph="{...}" />
-            <marker date="1581687868290" expanded="true" signature="2643:3071" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="6:32" ph="..." />
+            <marker date="1581689220727" expanded="true" signature="56:3083" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="195:3081" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="689:866" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="959:1231" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="1267:2410" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="2120:2262" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="2450:2501" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="2545:2622" ph="{...}" />
+            <marker date="1581689220727" expanded="true" signature="2659:3075" ph="{...}" />
           </folding>
         </state>
       </provider>

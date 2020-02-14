@@ -44,7 +44,7 @@ namespace TeamNameHere
 
             playerRigidBody.rotation = Quaternion.LookRotation(lookAt, Vector3.up);
 
-            if (isGrounded)
+            //if (isGrounded)
             {
                 Vector3 targetVelocity = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
                 targetVelocity = transform.TransformDirection(targetVelocity);
@@ -57,7 +57,7 @@ namespace TeamNameHere
 
                 playerRigidBody.AddForce(velocityChange, ForceMode.VelocityChange);
 
-                if (isJumpingAllowed && mayJump && Input.GetButton("Jump"))
+                if (isGrounded && isJumpingAllowed && mayJump && Input.GetButton("Jump"))
                 {
                     playerRigidBody.velocity = new Vector3(velocity.x, CalculateJumpSpeed(), velocity.z);
                 }
@@ -87,7 +87,7 @@ namespace TeamNameHere
 
             Debug.DrawLine(position, position + transform1.forward,
                 Color.magenta);
-            
+
             Debug.DrawLine(position1, position1 + o.transform.forward,
                 Color.red);
         }
