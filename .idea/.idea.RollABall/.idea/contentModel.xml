@@ -8,6 +8,15 @@
       <e p="Assets" t="Include">
         <e p="Revival_ASSIGNMENT2" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Level" t="Include">
+              <e p="NavmeshBaker.cs" t="Include" />
+            </e>
+            <e p="Navmesh" t="Include">
+              <e p="NavMeshLink.cs" t="Include" />
+              <e p="NavMeshModifier.cs" t="Include" />
+              <e p="NavMeshModifierVolume.cs" t="Include" />
+              <e p="NavMeshSurface.cs" t="Include" />
+            </e>
             <e p="Player" t="Include">
               <e p="PlayerController.cs" t="Include" />
             </e>
