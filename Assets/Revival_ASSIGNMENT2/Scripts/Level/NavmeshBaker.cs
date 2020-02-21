@@ -1,36 +1,36 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(NavMeshSurface))]
 public class NavmeshBaker : MonoBehaviour
 {
-    [SerializeField] private NavMeshSurface surface;
-
-    [SerializeField] private List<GameObject> platformObjects;
+    [SerializeField] private List<NavMeshSurface> platformObjects;
 
     // Start is called before the first frame update
     void Start()
     {
-        GameObject o = GameObject.FindObjectsOfType<NavMeshSurface>()
+        NavMeshSurface[] o = FindObjectsOfType<NavMeshSurface>();
+        Debug.Log(o.Length);
         
-        surface = GetComponent<NavMeshSurface>();
-        surface.BuildNavMesh();
+        foreach (NavMeshSurface obj in o)
+        {
+            platformObjects.Add(obj);
+        }
     }
 
     public void UpdateNavigationMesh()
     {
-        surface.BuildNavMesh();
+        foreach (NavMeshSurface platformObject in platformObjects)
+        {
+            platformObject.BuildNavMesh();
+        }
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Slash))
         {
-            surface.BuildNavMesh();
+            UpdateNavigationMesh();
         }
     }
 }

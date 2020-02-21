@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe1bc376-af38-4b85-9e93-cd6b17944db1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Materials/PlayerMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Materials/PlayerMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scenes/Main/NavMesh.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scenes/Main/NavMesh.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Player/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Player/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Player/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
-              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <marker date="1582293331537" expanded="true" signature="6:114" ph="..." />
                 <marker date="1582293331537" expanded="true" signature="202:1244" ph="{...}" />
@@ -34,18 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+            <state relative-caret-position="441">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
-                <marker date="1582293236802" expanded="true" signature="6:149" ph="..." />
-                <marker date="1582293236802" expanded="true" signature="235:824" ph="{...}" />
-                <marker date="1582293236802" expanded="true" signature="425:598" ph="{...}" />
-                <marker date="1582293236802" expanded="true" signature="638:682" ph="{...}" />
-                <marker date="1582293236802" expanded="true" signature="709:822" ph="{...}" />
-                <marker date="1582293236802" expanded="true" signature="760:816" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="6:74" ph="..." />
+                <marker date="1582294211578" expanded="true" signature="117:797" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="257:473" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="409:467" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="513:655" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="586:649" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="682:795" ph="{...}" />
+                <marker date="1582294211578" expanded="true" signature="733:789" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -67,8 +66,8 @@
         <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" />
         <option value="$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Player/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs" />
       </list>
     </option>
   </component>
@@ -150,12 +149,12 @@
       <updated>1581685027460</updated>
       <workItem from="1581685033183" duration="6804000" />
       <workItem from="1582289630740" duration="87000" />
-      <workItem from="1582289739354" duration="3507000" />
+      <workItem from="1582289739354" duration="4481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10398000" />
+    <option name="totallyTimeSpent" value="11372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -217,25 +216,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/FanBehaviour.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/RollABall/Scripts/BouncePad.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/PressurePlateBehaviour.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-          <folding>
-            <marker date="1582293236802" expanded="true" signature="6:149" ph="..." />
-            <marker date="1582293236802" expanded="true" signature="235:824" ph="{...}" />
-            <marker date="1582293236802" expanded="true" signature="425:598" ph="{...}" />
-            <marker date="1582293236802" expanded="true" signature="638:682" ph="{...}" />
-            <marker date="1582293236802" expanded="true" signature="709:822" ph="{...}" />
-            <marker date="1582293236802" expanded="true" signature="760:816" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Player/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
             <marker date="1582293331537" expanded="true" signature="6:114" ph="..." />
             <marker date="1582293331537" expanded="true" signature="202:1244" ph="{...}" />
@@ -244,6 +228,23 @@
             <marker date="1582293331537" expanded="true" signature="718:1236" ph="{...}" />
             <marker date="1582293331537" expanded="true" signature="879:1226" ph="{...}" />
             <marker date="1582293331537" expanded="true" signature="1009:1212" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Revival_ASSIGNMENT2/Scripts/Level/NavmeshBaker.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <marker date="1582294211578" expanded="true" signature="6:74" ph="..." />
+            <marker date="1582294211578" expanded="true" signature="117:797" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="257:473" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="409:467" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="513:655" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="586:649" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="682:795" ph="{...}" />
+            <marker date="1582294211578" expanded="true" signature="733:789" ph="{...}" />
           </folding>
         </state>
       </provider>

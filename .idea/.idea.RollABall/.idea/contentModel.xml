@@ -20,6 +20,9 @@
             <e p="Player" t="Include">
               <e p="PlayerController.cs" t="Include" />
             </e>
+            <e p="Whip Scripts" t="Include">
+              <e p="RangePickup.cs" t="Include" />
+            </e>
           </e>
         </e>
         <e p="RollABall _ASSIGNMENT1" t="Include">
