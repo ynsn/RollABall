@@ -6,12 +6,21 @@
     <e p="D:\Development\Projects\StackDesign\RollABall" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="PressurePlateBehaviour.cs" t="Include" />
-        <e p="RollABall" t="Include">
+        <e p="Revival_ASSIGNMENT2" t="Include">
           <e p="Scripts" t="Include">
-            <e p="BallController.cs" t="Include" />
-            <e p="BouncePad.cs" t="Include" />
-            <e p="FanBehaviour.cs" t="Include" />
+            <e p="Player" t="Include">
+              <e p="PlayerController.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RollABall _ASSIGNMENT1" t="Include">
+          <e p="PressurePlateBehaviour.cs" t="Include" />
+          <e p="RollABall" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="BallController.cs" t="Include" />
+              <e p="BouncePad.cs" t="Include" />
+              <e p="FanBehaviour.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>

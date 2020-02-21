@@ -11,6 +11,9 @@
 *.csproj
 *.unityproj
 *.sln
+
+/.idea
+/.vs
 *.suo
 *.tmp
 *.user
